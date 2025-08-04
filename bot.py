@@ -35,7 +35,8 @@ async def responder_proceso(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Proceso no encontrado. Usa /procesos para ver los disponibles.")
 
 # MAIN
-TOKEN = "8035682366:AAEnqsTS137HWJClXmHUYN6sHnvGZJ-fIRY"  # <-- Reemplaza con tu token real de BotFather
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 app = ApplicationBuilder().token(TOKEN).build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("procesos", procesos))
