@@ -1,0 +1,17 @@
+{
+  "cocina": {
+    "titulo": "Proceso de Cocina",
+    "descripcion": "Instrucciones para el área de cocina.",
+    "archivo": "archivos/cocina.pdf"
+  },
+  "caja": {
+    "titulo": "Proceso de Caja",
+    "descripcion": "Pasos para cierre y apertura de caja.",
+    "archivo": "archivos/caja.jpg"
+  },
+  "limpieza": {
+    "titulo": "Proceso de Limpieza",
+    "descripcion": "Protocolos de limpieza general.",
+    "archivo": "archivos/limpieza.pdf"
+  }
+}
